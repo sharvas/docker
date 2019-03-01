@@ -5,7 +5,6 @@ EXPOSE 443 80 22
 RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get upgrade -y && \
 	apt-get install -y ca-certificates openssh-server wget postfix
 RUN sed -i 's/#PermitRootLogin prohibit-password/PermitRootLogin yes/' /etc/ssh/sshd_config
-# RUN echo 'root:passwd' | chpasswd
 
 RUN wget https://packages.gitlab.com/install/repositories/gitlab/gitlab-ce/script.deb.sh && \
 	chmod +x script.deb.sh && ./script.deb.sh && \
@@ -31,4 +30,3 @@ ENTRYPOINT (/opt/gitlab/embedded/bin/runsvdir-start &) && \
 # docker build -t ex03 .
 # docker run -it --rm -p 80:80 -p 2200:22 -p 443:443 ex03
 # GIT_SSL_NO_VERIFY=true before git push/pull/... on HTTPS
-# git config http.emptyAuth true when push on HTTPS
