@@ -1,6 +1,6 @@
 FROM ruby
 
-RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get -y upgrade && \
+RUN apt-get update && apt-get -y upgrade && \
 	apt-get install -y nodejs
 
 ONBUILD COPY app /opt/app
