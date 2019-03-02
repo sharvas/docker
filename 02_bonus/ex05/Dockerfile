@@ -8,4 +8,7 @@ WORKDIR /home/projects
 COPY hello.py hello.py
 RUN python3 hello.py
 
-#python dev environment
+# a basic Python3 dev environment
+
+# docker build -t 05 .
+# docker run -it --rm 05

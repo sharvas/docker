@@ -14,3 +14,8 @@ COPY files/default /etc/nginx/sites-available/
 COPY html /var/www/html
 
 ENTRYPOINT service nginx restart && tail -f /dev/null
+
+# Debian web server (SSL) to host a simple website
+
+# docker build -t b01 .
+# docker run -it --rm -p 443:443 -p 80:80 b01
