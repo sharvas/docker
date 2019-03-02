@@ -13,3 +13,4 @@ ONBUILD RUN rake db:seed
 
 # docker build -t ft-rails:on-build .
 # test app: https://bitbucket.org/railstutorial/sample_app_4th_ed.git
+# vim app/Gemfile.lock -> rake (12.3.2)

@@ -28,5 +28,11 @@ ENTRYPOINT (/opt/gitlab/embedded/bin/runsvdir-start &) && \
 			gitlab-ctl reconfigure && service ssh start && gitlab-ctl tail
 
 # docker build -t ex03 .
-# docker run -it --rm -p 80:80 -p 2200:22 -p 443:443 ex03
-# GIT_SSL_NO_VERIFY=true before git push/pull/... on HTTPS
+# docker run -it --rm -p 80:80 -p 2200:22 -p 443:443 --privileged ex03
+
+# HTTPS:
+# GIT_SSL_NO_VERIFY=true before git push/pull/...
+# git config http.emptyAuth true (for sometimes)
+
+# more power to the VM:
+# docker-machine stop Char && VBoxManage modifyvm Char --cpus 2 && VBoxManage modifyvm Char --memory 4096 && docker-machine start Char && eval $(docker-machine env Char)
