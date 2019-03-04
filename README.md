@@ -24,8 +24,7 @@ docker-machine stop Char && VBoxManage modifyvm Char --cpus 2 && VBoxManage modi
 Most almost all of the first part files can be executed directly. For example ```sh ./01```
 How to build and run docker containers, please see the comments in Dockerfiles.
 
-
-***Some of  the resources that I've found usefull:***
+***Some of the resources that I've found usefull***
 
 https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
 https://packages.gitlab.com/gitlab/gitlab-ce/install
