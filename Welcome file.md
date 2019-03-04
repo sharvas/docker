@@ -2,23 +2,22 @@
 
 The project consists of three parts - introduction to Docker, writing Dockerfiles and the bonus part.
 
-***00_how_to_docker*** - introduction to Docker and its main options.
+***00_how_to_docker*** is an introduction to Docker and its main options.
 
-01_dockerfiles - writing dockerfiles:
+***01_dockerfiles*** - is all about writing dockerfiles:
+* Alpine image with Vim editor.
+* Debian TeamSpeak server.
+* Ruby container for Rails applications.
+* Debian with Gitlab server (SSL and SSH).
 
-Alpine image with Vim editor.
-Debian TeamSpeak server.
-Ruby container for Rails applications.
-Debian with Gitlab server (SSL and SSH).
-02_bonus - bonus dockerfiles:
+***02_bonus*** - bonus dockerfiles:
+* Debian web server (SSL)
+* Debian with C dev environment
+* Debian for basic network testing
+* fun Debian with fortune | cowsay generated images
+* Debian with Python3 dev environment
 
-Debian web server (SSL)
-Debian with C dev environment
-Debian for basic network testing
-fun Debian with fortune | cowsay generated images
-Debian with Python3 dev environment
 to run on MAC:
-
 docker-machine stop Char && VBoxManage modifyvm Char --cpus 2 && VBoxManage modifyvm Char --memory 4096 && docker-machine start Char && eval $(docker-machine env Char)
 Some useful resources:
 
@@ -171,5 +170,5 @@ B --> D{Rhombus}
 C --> D
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3NjQxNTk2MF19
+eyJoaXN0b3J5IjpbLTYzNjcyNjZdfQ==
 -->
