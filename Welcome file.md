@@ -21,9 +21,10 @@ to run on MAC:
 ```bash
 docker-machine stop Char && VBoxManage modifyvm Char --cpus 2 && VBoxManage modifyvm Char --memory 4096 && docker-machine start Char && eval $(docker-machine env Char)
 ```
-And then most almost all of the first part files can be executed directly ```sh 
+Most almost all of the first part files can be executed directly. For example ```sh ./01```
+How to build and run docker container, there are the comments in each Dockerfile.
 
-Some useful resources:
+***Some of  theresources I found usefull:***
 https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
 https://packages.gitlab.com/gitlab/gitlab-ce/install
 https://gitlab.com/gitlab-org/omnibus-gitlab/issues/430
@@ -31,5 +32,5 @@ https://www.howtoforge.com/tutorial/how-to-install-and-configure-gitlab-on-ubunt
 https://www.digitalocean.com/community/tutorials/how-to-create-a-self-signed-ssl-certificate-for-nginx-on-debian-9
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyMTA1MDA3MV19
+eyJoaXN0b3J5IjpbLTI1NTc3MjA2XX0=
 -->
