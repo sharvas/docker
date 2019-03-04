@@ -25,11 +25,12 @@ Most almost all of the first part files can be executed directly. For example ``
 How to build and run docker containers, please see the comments in Dockerfiles.
 
 ***Some of  the resources that I've found usefull:***
+
 https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
 https://packages.gitlab.com/gitlab/gitlab-ce/install
 https://gitlab.com/gitlab-org/omnibus-gitlab/issues/430
 https://www.howtoforge.com/tutorial/how-to-install-and-configure-gitlab-on-ubuntu-16-04/
 https://www.digitalocean.com/community/tutorials/how-to-create-a-self-signed-ssl-certificate-for-nginx-on-debian-9
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5NjEwNTY0MV19
+eyJoaXN0b3J5IjpbLTIwNjE4NTk0OTddfQ==
 -->
