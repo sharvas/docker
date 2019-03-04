@@ -22,7 +22,7 @@ Detailed description is in the [subject](https://github.com/sharvas/docker/raw/m
 ```bash
 docker-machine stop Char && VBoxManage modifyvm Char --cpus 2 && VBoxManage modifyvm Char --memory 4096 && docker-machine start Char && eval $(docker-machine env Char)
 ```
-Most almost all of the first part files can be executed directly. For example ```sh ./01```
+Almost all of the first part files can be executed directly. For example ```sh ./01```
 How to build and run docker containers, please see the comments in Dockerfiles.
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbMTgxNDcxNDU1NywtMTE3MjAyOTAzXX0=
