@@ -16,7 +16,9 @@
 * Debian with Python3 dev environment
 
 **to run on MAC:**
-```docker-machine stop Char && VBoxManage modifyvm Char --cpus 2 && VBoxManage modifyvm Char --memory 4096 && docker-machine start Char && eval $(docker-machine env Char)```
+```bash
+docker-machine stop Char && VBoxManage modifyvm Char --cpus 2 && VBoxManage modifyvm Char --memory 4096 && docker-machine start Char && eval $(docker-machine env Char)
+```
 
 **Some useful resources:**
 - https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
