@@ -1,6 +1,6 @@
 # docker 101
 
-The project consists of three parts - introduction to Docker, writing Dockerfiles and the bonus part. Best to see the subject.
+The project consists of three parts - introduction to Docker, writing Dockerfiles and the bonus part. Detailed description is in the [subject](https://github.com/sharvas/docker/raw/master/docker.en.pdf).
 
 ***00_how_to_docker*** is an introduction to Docker and its main options.
 
@@ -21,6 +21,7 @@ to run on MAC:
 ```bash
 docker-machine stop Char && VBoxManage modifyvm Char --cpus 2 && VBoxManage modifyvm Char --memory 4096 && docker-machine start Char && eval $(docker-machine env Char)
 ```
+And then most almost all of the first part files can be executed directly ```sh 
 
 Some useful resources:
 https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
@@ -30,5 +31,5 @@ https://www.howtoforge.com/tutorial/how-to-install-and-configure-gitlab-on-ubunt
 https://www.digitalocean.com/community/tutorials/how-to-create-a-self-signed-ssl-certificate-for-nginx-on-debian-9
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxNjA1NTczXX0=
+eyJoaXN0b3J5IjpbLTQyMTA1MDA3MV19
 -->
