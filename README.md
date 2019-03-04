@@ -1,6 +1,7 @@
 # docker 101
 
-The project consists of three parts - introduction to Docker, writing Dockerfiles and the bonus part. Detailed description is in the [subject](https://github.com/sharvas/docker/raw/master/docker.en.pdf).
+The project consists of three parts - introduction to Docker, writing Dockerfiles and the bonus part. 
+Detailed description is in the [subject](https://github.com/sharvas/docker/raw/master/docker.en.pdf).
 
 ***00_how_to_docker*** is an introduction to Docker and its main options.
 
@@ -32,5 +33,5 @@ https://gitlab.com/gitlab-org/omnibus-gitlab/issues/430
 https://www.howtoforge.com/tutorial/how-to-install-and-configure-gitlab-on-ubuntu-16-04/
 https://www.digitalocean.com/community/tutorials/how-to-create-a-self-signed-ssl-certificate-for-nginx-on-debian-9
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzIxNjEwMTg1LC0xMTcyMDI5MDNdfQ==
+eyJoaXN0b3J5IjpbMTI1MzY1NzkxMSwtMTE3MjAyOTAzXX0=
 -->
