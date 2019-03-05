@@ -18,7 +18,7 @@ Detailed description is in the [subject](https://github.com/sharvas/docker/raw/m
 * fun Debian with fortune | cowsay generated images
 * Debian with Python3 dev environment
 
-***to run on MAC:***
+***to run on macOS:***
 ```bash
 docker-machine stop Char && VBoxManage modifyvm Char --cpus 2 && VBoxManage modifyvm Char --memory 4096 && docker-machine start Char && eval $(docker-machine env Char)
 ```
