@@ -24,6 +24,3 @@ docker-machine stop Char && VBoxManage modifyvm Char --cpus 2 && VBoxManage modi
 ```
 Almost all of the first part files can be executed directly. For example ```sh ./01```.
 How to build and run docker containers, please see the comments in Dockerfiles.
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNDcxNDU1NywtMTE3MjAyOTAzXX0=
--->
